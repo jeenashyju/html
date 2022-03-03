@@ -1,0 +1,14 @@
+<?php
+echo"sorting array:<br>";
+$stud=array("ammu","sreelakshmi","riya");
+echo"display array using print_r:<br>";
+print_r($stud);
+echo"</br>array in ascending order<br>";
+asort($stud);
+print_r($stud);
+echo"</br>array in descending order<br>";
+arsort($stud);
+print_r($stud);
+
+
+?>
