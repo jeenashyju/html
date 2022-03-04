@@ -1,0 +1,38 @@
+<html>
+<body>
+<script>
+ var str1=new String("introduction to webprogramming");
+ var str2="Class";
+ document.write("This string is"+str1+"<br>");
+
+ document.write("char value at a specified index is:"+str1.charAt(2)+"<br>");
+ 
+ document.write("concatenates string is:");
+ var str3=str1.concat(str2);
+ document.write(str3);
+
+ var n=str1.indexOf("Programming"+"<br>");
+ document.write("the index of programming is:"+n+"<br>");
+
+ var n=str1.lastIndexOf("Programming");
+ document.write("the last index of programming is: "+n+"<br>");
+
+ var str3=str1.toLowerCase();
+ document.write("The lowercase of string1 is:"+str3+"<br>");
+
+ var str3=str1.toUpperCase();
+ document.write("The uppercase of string1 is:"+str3+"<br>");
+
+ var str3=str1.slice(5,11);
+ document.write("the extracted text is:"+str3+"<br>");
+var str3=str1.trim();
+
+document.write("the trimmed string1 is :" +str3+"<br>");
+document.write("the splitted string1 is :" +str1.split("")+"<br>");
+document.write("the length of  string1 is :" +str1.length+"<br>");
+document.writeIn("the replaced string is:"+str1.replace("programming"+"application")+"<sbr>");
+ 
+
+</script>
+</body>
+</html>
