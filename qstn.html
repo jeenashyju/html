@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            function exam(form)
+            {
+                var i=0
+                if(form.one[0].checked)i=i+1
+                if(form.two[2].checked)i=i+1
+                if(form.THREE[1].checked)i=i+1
+                window.alert("thank you for taking this online exam:"+i)
+            }
+        </script>
+     </head>
+<body>
+<form action=""onSubmit="exam(this)">
+<label>Color of sky</label><br>
+<input type="radio" name="one" value="blue"><label>blue</label>
+<input type="radio" name="one" value="red"><label>red</label>
+<input type="radio" name="one" value="green"><label>green</label><br><br>
+
+<label>Which is platform independent language</label><br>
+<input type="radio" name="two" value="c++"><label>c++</label>
+<input type="radio" name="two" value="c"><label>c</label>
+<input type="radio" name="two" value="java"><label>java</label><br><br>
+
+<label>Frame package is in which package</Frame></label><br>
+<input type="radio" name="THREE" value="applet"><label>applet</label>
+<input type="radio" name="THREE" value="AWT"><label>AWT</label>
+<input type="radio" name="THREE" value="SWING"><label>SWING</label><br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
